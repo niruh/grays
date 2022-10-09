@@ -1,0 +1,50 @@
+.bottom {
+	background: transparent;
+	font: 10px 'Fira Code';
+	padding: 0px;	
+	margin: 0px 0px 10px;
+}
+.bottom .modules-right {
+	background: transparent;
+	padding: 10px 10px 0px;
+	color: #98971a;
+}
+.bottom .modules-center {
+	background: transparent;
+	color: #98971a;
+	padding: 10px 0px 0px;
+	margin: 0px;
+}
+.left {
+	background: transparent;
+	font: 10px 'Fira Code';
+	margin: 0px 0px;
+	padding: 0px;
+}
+#workspaces {
+	padding: 0px;
+	margin: 0px 0px 5px;
+}
+#workspaces button {
+	padding: 0px 5px;
+	border-bottom: 1px solid #2f3032;
+	border-radius: 0px;
+	color: #181818;
+	font-size: 12px;
+	margin: 0px;
+}
+#workspaces button.focused {
+	border-bottom: 1px solid;
+	color: #98971a;
+}
+
+#workspaces button:hover {
+	background: rgba(0,0,0,.7);
+	border: 0px solid #000;
+	padding: 7px;
+	margin: 0px;
+	outline: none;
+}
+#battery {
+	padding-right: 10px;
+}
